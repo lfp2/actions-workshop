@@ -1,0 +1,11 @@
+name: My First Github Flow
+run-name: ${{ github.actor }} is learning GitHub Actions
+on: [pull_request]
+jobs:
+  my-first-flow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run a multi-line script
+        run: |
+          echo Adding my first action!
