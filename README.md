@@ -1,1 +1,1 @@
-# hacktoberfest-recife
+# GitHub Actions Workshop
